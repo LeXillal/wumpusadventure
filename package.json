@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/dannyhpy/wumpusadventure.git"
   },
-  "author": "",
-  "keywords": [
-    "discord-js"
-  ],
   "author": "dannyhpy",
   "license": "ISC",
   "bugs": {
