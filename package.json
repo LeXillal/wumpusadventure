@@ -1,0 +1,27 @@
+{
+  "name": "wumpusadventure",
+  "version": "1.0.0",
+  "description": "Our submission to the Hack Week 2019 for Discord. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyhpy/wumpusadventure.git"
+  },
+  "keywords": [
+    "discord-js"
+  ],
+  "author": "dannyhpy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyhpy/wumpusadventure/issues"
+  },
+  "homepage": "https://github.com/dannyhpy/wumpusadventure#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "js-yaml": "^3.13.1"
+  }
+}
