@@ -1,3 +1,4 @@
 config.yml
+node_modules/
 db_data/
 package-lock.json
