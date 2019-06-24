@@ -26,8 +26,24 @@ class Player {
             // Everything is ok
             this.data = results[0]
           });
-        
     }
+
+    update() {
+        query = "UPDATE players SET "
+
+        for (var key in this.data) {
+            if (this.data.hasOwnProperty(key)) {
+                if (key != "id")
+                    query += key +"="+this.data[key]+","
+            }
+        }
+
+        query = query.substring(0, query.length-1)
+        query += " WHERE id=?"
+        console.log(query) // DEBUG
+    }
+
+
 
 }
 
