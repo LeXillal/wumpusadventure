@@ -12,3 +12,10 @@ async function ping(ctx) {
 
   await m.edit(pingEmbed)
 }
+
+module.exports = () => [
+  {
+    name: 'ping',
+    callback: ping
+  }
+]
