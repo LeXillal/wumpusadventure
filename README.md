@@ -1,4 +1,4 @@
-#WumpusAdventure
+<h1>WumpusAdventure</h1>
 
 **WumpusAdventure is a Discord bot who make you play like a Wumpus !**
 
