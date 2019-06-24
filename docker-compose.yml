@@ -1,1 +1,11 @@
-#LATER
+version: '3'
+services:
+  bot:
+    container_name: hackweekproject-nodejs
+    image: hackweekproject-nodejs
+    restart: always
+    volumes:
+      - ./settings.yml:/settings.yml
+    build:
+      context: ./
+      dockerfile: ./build-nodejs/Dockerfile
