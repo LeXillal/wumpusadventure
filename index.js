@@ -1,3 +1,5 @@
+'use-strict'
+
 const fs      = require('fs')
 const YAML    = require('js-yaml')
 const { ShardingManager } = require('discord.js')
