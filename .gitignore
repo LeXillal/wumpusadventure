@@ -1,4 +1,4 @@
-config.yml
-node_modules/
-db_data/
-package-lock.json
+/settings.yml
+/node_modules
+/package-lock.json
+/db_data

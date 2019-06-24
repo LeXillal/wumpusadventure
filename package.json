@@ -1,16 +1,21 @@
 {
-  "name": "wumpus-adventure",
+  "name": "wumpusadventure",
   "version": "1.0.0",
-  "description": "Bot made for the Hack Week project",
+  "description": "Our submission to the Hack Week 2019 for Discord. ",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "exit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannyhpy/wumpusadventure.git"
   },
   "author": "",
+  "keywords": [
+    "discord-js"
+  ],
+  "author": "dannyhpy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dannyhpy/wumpusadventure/issues"
